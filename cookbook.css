@@ -1,0 +1,142 @@
+ .image-block{
+            width:41%;/*ширина блока с изображением*/
+            margin:auto;
+            height:300px;
+            background-size: auto 100%;
+            background-position: center;/*изображение по центру*/
+            background-repeat: no-repeat;/*изображение не повторяется*/
+            background-image: url(https://cdn.shopify.com/s/files/1/0602/2853/4509/files/butterfly-mixer-matchless-receipe.jpg?v=1648027723);
+ }
+
+
+ .menu{
+    width:1200px;
+    margin:30px auto;/*отступ сверху и снизу 30px, по бокам авто*/
+    height:60px;
+    border: 10px solid rgb(255,115,92);/*граница вокруг меню*/
+    border-radius: 20px;/*скругление углов*/
+    display:flex;/*использование flexbox для расположения элементов*/   
+    justify-content:space-between;/*распределенеие элементов по всей ширине*/
+    align-items:center;
+    padding:0 20px;/*внутренний отступ слева и справа по 20px*/
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+ }
+
+ .carousel-nav a {/*стили для ссылок*/
+   text-decoration: none;
+   color:rgb(187,188,190); /*цвет ссылок*/
+   font-weight: bold;
+   font-size: 20px;
+   font-family: Tahoma, sans-serif;
+ }
+
+   .carousel-nav a:hover {/*эффект при наведении*/
+      color: rgb(206, 116, 71); /*цвет при наведении*/
+      font-size: 25px; /*размер шрифта при наведении*/
+      font-weight: bold;
+      transition: 0.3s; /*плавный переход*/
+      font-family: Tahoma, sans-serif;
+   }
+.carousel-nav a.active {
+   color: rgb(56,90,100); /*цвет активной ссылки*/
+   font-family: Tahoma, sans-serif;
+ }
+ .arrow{ /*стили для стрелок*/
+   padding: 15px;/*внутренний отступ*/
+   transition: 0.3s;/*переход для эффекта при наведении*/
+   cursor:pointer;/*курсор в виде руки при наведении*/
+   font-family: Tahoma, sans-serif;
+ }
+ .arrow:hover {/*эффект при наведении*/
+  transform: scale(1.5);/*увеличение размера*/
+  
+}
+
+
+
+
+
+
+ .supp{
+    margin:auto;
+    text-align:center;/*выравнивание по центру*/
+    font-family: Tahoma, sans-serif;
+    font-size: 300%;
+    padding:20px;
+
+ }
+
+.supi-koostisained{
+    margin:auto;
+    text-align:justify;/*выравнивание по ширине*/
+    font-family: Tahoma, sans-serif;
+    font-size: 150%;
+    line-height: 40px;/*расстояние между строками*/
+    padding:90px;/*внутренний отступ*/
+    padding-left:20px;/*внутренний отступ слева*/
+    padding-right:300px;/*внутренний отступ справа*/
+    width:600px;
+    position:absolute;/*чтобы текст был поверх изображения*/
+    top:70%;/*отступ сверху*/
+    right:0%;
+  
+}
+ span{
+   font-size:30px;
+   font-weight:bold;
+   padding:20px;
+   font-family: Tahoma, sans-serif;
+}
+
+ .juustu-kukeseenesupi-foto{
+    width:1300px;
+    height:800px;
+    margin-left:80px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image:url(https://nami-nami.ee/files//recipes/1151/juta2025juustukukeseenesupp.jpg);       
+ }
+
+ .supi-valmistamine{
+    margin:auto;
+    margin-top:5px;
+    text-align:justify;/*выравнивание по ширине*/
+    font-family: Tahoma, sans-serif;
+    font-size: 150%;
+   line-height: 40px;/*расстояние между строками*/
+   
+
+   
+      width:600px;
+      height:auto;
+    padding:20px;
+   
+}
+ 
+footer{/*нижний колонтитул*/
+   text-align:center;
+   font-size:100%;
+   line-height: 40px;/*расстояние между строками*/
+    margin-top:130px;/*отступ сверху*/
+   padding:10px;/*внутренний отступ*/
+   font-family: Tahoma, sans-serif;
+}
+
+.lillkapsasupi-foto{
+   width:1300px;
+   height:800px;
+   margin-left:80px;
+   background-repeat: no-repeat;
+   background-size: auto 100%;
+   background-image:url(https://nami-nami.ee/files//recipes/9457/lillkapsasuppjuta.jpg);       
+ } 
+
+ .kõrvitsapüreesupi-foto{
+   width:1300px;
+   height:800px;
+   margin-left:80px;
+   background-repeat: no-repeat;
+   background-size: auto 100%;
+   background-image:url(https://nami-nami.ee/files//recipes/7627/Juta2024SametineKorvitsaSupp.jpg);       
+ }
